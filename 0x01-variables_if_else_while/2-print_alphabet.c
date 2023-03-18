@@ -3,13 +3,13 @@
  * main - prints the alphabet in lowercase, followed by a new line.
  * Return: success is 0, failure is one.
  */
-int main(void)
+void main(void)
 {
 	char chr = 'a';
 for (chr = 'a'; chr <= 'z'; chr++)
 {
 	putchar(chr);
-	putchar('\t');
+	putchar('\n');
 }
 return (0);
 }
