@@ -15,7 +15,7 @@ for (b = 'a' ; b <= 'f' ; b++)
 {
 	putchar(b);
 }
-putchart('\n');
+putchar('\n');
 return (0);
 }
 
