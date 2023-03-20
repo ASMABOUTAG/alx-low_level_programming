@@ -10,6 +10,7 @@ int main(void)
 	long int linttyp;
 	long long int llinttyp;
 	float floattyp;
+	 #warning depends on the computer is compiled and run on.
 printf("Size of a char: %zu byte(s)\n", sizeof(chartyp));
 printf("Size of a int: %zu byte(s)\n", sizeof(inttyp));
 printf("Size of a long int: %zu byte(s)\n", sizeof(linttyp));
