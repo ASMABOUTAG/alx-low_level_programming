@@ -10,10 +10,10 @@ int main(void)
 	long int linttyp;
 	long long int llinttyp;
 	float floattyp;
-printf("Size of a char: %lu byte(s)\n", sizeof(chartyp));
-printf("Size of a int: %lu byte(s)\n", sizeof(inttyp));
-printf("Size of a long int: %lu byte(s)\n", sizeof(linttyp));
-printf("Size of a long long int: %lu byte(s)\n", sizeof(llinttyp);
-printf("Size of a float: %lu byte(s)\n", sizeof(floattyp));
+printf("Size of a char: %zu byte(s)\n", sizeof(chartyp));
+printf("Size of a int: %zu byte(s)\n", sizeof(inttyp));
+printf("Size of a long int: %zu byte(s)\n", sizeof(linttyp));
+printf("Size of a long long int: %zu byte(s)\n", sizeof(llinttyp);
+printf("Size of a float: %zu byte(s)\n", sizeof(floattyp));
 return (0);
 }
