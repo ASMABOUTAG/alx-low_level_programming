@@ -4,11 +4,10 @@
 */
 void print_alphabet(void)
 {
-int _putchar(char);
 char c;
 for (c = 'a'; c <= 'z'; c++)
 {
-	_putchar(c);
+_putchar(c);
 }
 _putchar('\n');
 }
