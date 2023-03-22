@@ -8,6 +8,10 @@ int print_last_digit(int n)
 {
 int ldigi;
 ldigi = n % 10;
+if (n < 0)
+{
+ldigi = (n * -1) % 10;
+}
 _putchar(ldigi + '0');
 return (ldigi);
 }
