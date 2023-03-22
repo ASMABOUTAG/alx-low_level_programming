@@ -19,6 +19,8 @@ _putchar(32);
 _putchar(f + '0');
 _putchar(d + '0');
 }
+else
+{
 if (b != 0)
 {
 _putchar(44);
