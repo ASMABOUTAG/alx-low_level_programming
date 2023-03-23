@@ -7,9 +7,9 @@ void print_square(int size)
 {
 int i, j;
 i = 1;
-if (n > 0)
+if (size > 0)
 {
-while (i <= n)
+while (i <= size)
 {
 for (j = 1; j <= size; j++)
 {
@@ -19,7 +19,7 @@ _putchar('\n');
 i++;
 }
 }
-else if (n <= 0)
+else if (size <= 0)
 _putchar('\n');
 }
 
