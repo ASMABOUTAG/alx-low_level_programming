@@ -9,7 +9,7 @@ int i, j;
 i = 1;
 if (n > 0)
 {
-while (n > i)
+while (n >= i)
 {
 for (j = 1; j < i; j++)
 {
