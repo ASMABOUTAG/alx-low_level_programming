@@ -19,8 +19,9 @@ _putchar(92);
 _putchar('\n');
 i++;
 }
-_putchar('\n');
 }
 else if (n <= 0)
+{
 _putchar('\n');
+}
 }
