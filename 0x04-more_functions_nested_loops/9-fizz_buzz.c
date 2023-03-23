@@ -12,21 +12,21 @@ for (v = 1; v <= 100; v++)
 if ((v % 3 == 0) && (v % 5 == 0))
 {
 printf("FizzBuzz");
-printf(" ");
 }
 else if (v % 5 == 0)
 {
 printf("Buzz");
-printf(" ");
 }
 else if (v % 3 == 0)
 {
 printf("Fizz");
-printf(" ");
 }
 else
 {
 printf("%d", v);
+}
+if (v != 100)
+{
 printf(" ");
 }
 }
