@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - prints the numbers from 1 to 100 with conditions
  * Return: 0 is success.
