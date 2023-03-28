@@ -14,4 +14,4 @@ count = count + 1;
 s++;
 }
 return (count);
-
+}
