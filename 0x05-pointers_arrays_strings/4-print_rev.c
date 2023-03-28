@@ -13,6 +13,7 @@ s++;
 i++;
 }
 for (len = i; len >= 0; len--)
+{
 _putchar(*s);
 s--;
 }
