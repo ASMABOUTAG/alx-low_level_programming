@@ -6,13 +6,13 @@
 void puts2(char *str)
 {
 int count = 0;
-while (*s != '\0')
+while (*str != '\0')
 {
 if (count % 2 == 0)
 {
-_putchar(*s);
+_putchar(*str);
 }
-s++;
+str++;
 count++;
 }
 _putchar('\n');
