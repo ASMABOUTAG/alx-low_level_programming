@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * puts2 -  prints every other character of a string...
+ * puts2 -  prints every other character of a string, starting...
  *@str: pointer to char.
 */
 void puts2(char *str)
