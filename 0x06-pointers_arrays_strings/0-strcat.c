@@ -12,7 +12,6 @@ i = 0;
 j = 0;
 while (dest[i] != '\0')
 {
-++dest;
 i++;
 }
 while (src[j] != '\0')
