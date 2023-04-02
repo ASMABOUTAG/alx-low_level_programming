@@ -15,7 +15,7 @@ for (k = j + 1; k <= 9; k++)
 putchar(i + '0');
 putchar(j + '0');
 putchar(k + '0');
-if (j < 7)
+if (i < 7)
 {
 putchar(44);
 putchar(32);
