@@ -16,6 +16,8 @@ if (haystack[i] ==  needle[j] && haystack[i + 1] ==  needle[j + 1])
 {
 return (haystack + i);
 }
+else
+return (0);
 }
 }
 return (0);
