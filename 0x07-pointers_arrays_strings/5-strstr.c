@@ -14,7 +14,7 @@ for (j = 0; needle[j]; j++)
 {
 if (haystack[i] ==  needle[j] && haystack[i + 1] ==  needle[j + 1])
 {
-return (s + i);
+return (haystack + i);
 }
 }
 }
