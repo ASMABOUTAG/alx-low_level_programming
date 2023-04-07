@@ -26,7 +26,7 @@ if (first >= last)
 return (1);
 if (s[first] == s[last])
 {
-return (palindrome(*s, first + 1, last - 1));
+return (palindrome(s, first + 1, last - 1));
 }
 return (0);
 }
