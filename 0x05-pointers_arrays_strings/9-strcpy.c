@@ -13,7 +13,7 @@ for (; src[indy] != '\0'; indy++)
 {
 dest[indy] = src[indy];
 }
-dest[indy + 1] = '\0';
+dest[indy++] = '\0';
 return (dest);
 }
 
