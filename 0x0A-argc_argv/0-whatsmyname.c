@@ -7,6 +7,13 @@
 */
 int main(int argc, char *argv[])
 {
-printf("%s\n", argv[0]);
+int ind;
+for (ind = 0; ind < argc; ind++)
+{
+if (ind == 0)
+{
+printf("%s\n", argv[ind]);
+}
+}
 return (0);
 }
