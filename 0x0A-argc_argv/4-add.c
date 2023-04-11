@@ -10,16 +10,23 @@ int main(int argc, char *argv[])
 {
 int i;
 int add = 0;
+int value __attribute__ ((unused));
+char *suiv;
 
 for (i = 1; i < argc; i++)
 {
 if (argc > 1)
 {
-add = add + atoi(argv[i]);
-if (atoi(argv[i]) == 0 || atoi(argv[i]) < 0)
+value = strtol(argv[i], &suiv, 10);
+
+if (*suiv != '\0' || suiv == argv[i])
 {
 printf("Error\n");
 return (1);
+}
+else
+{
+add = add + atoi(argv[i]);
 }
 }
 }
