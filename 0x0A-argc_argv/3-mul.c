@@ -19,7 +19,7 @@ if (atoi(argv[i]) == 0)
 {
 multi = 0;
 }
-else if (argc < 3 || argc > 3)
+else if (argc < 3)
 {
 printf("Error\n");
 return (1);
