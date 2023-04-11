@@ -4,7 +4,7 @@
  * main - print the result of the multiplication, followed by a new line
  * @argc: the size of array argv
  * @argv: array of size argc
- * Return: success is 0.
+ * Return: success is 0, Error is 1.
 */
 int main(int argc, char *argv[])
 {
@@ -19,7 +19,7 @@ if (atoi(argv[i]) == 0)
 {
 multi = 0;
 }
-else if (argc < 3)
+else if (argc < 3 || argc > 3)
 {
 printf("Error\n");
 return (1);
