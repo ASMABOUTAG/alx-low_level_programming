@@ -15,7 +15,7 @@ for (i = 0; i < argc; i++)
 if (argc > 1)
 {
 multi = multi *atoi(argv[i]);
-if (atoi(argv[i] == 0))
+if (atoi(argv[i]) == 0)
 {
 multi = 0;
 }
