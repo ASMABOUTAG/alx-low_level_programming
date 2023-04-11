@@ -15,7 +15,7 @@ if (argc < 3 || argc == 1 || argc > 3)
 printf("Error\n");
 return (1);
 }
-for (i = 0; i < argc; i++)
+for (i = 1; i < 3; i++)
 {
 if (argc > 1)
 {
