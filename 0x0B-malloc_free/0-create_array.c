@@ -14,7 +14,7 @@ if (size == 0)
 	return (NULL);
 for (j = 0; j < size; j++)
 {
-	p[i] = c;
+	p[j] = c;
 }
 return (p);
 }
