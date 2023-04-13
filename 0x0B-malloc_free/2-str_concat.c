@@ -27,6 +27,7 @@ i = 0;
 for (; s1[i] != '\0'; i++)
 {
 s_concat[i] = s1[i];
+}
 for (j = 0; s2[j] != '\0'; j++)
 {
 s_concat[i] = s2[j];
