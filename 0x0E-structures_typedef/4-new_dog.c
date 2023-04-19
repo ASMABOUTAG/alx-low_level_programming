@@ -54,7 +54,18 @@ dogy = malloc(sizeof(dog_t));
 if (dogy == NULL)
 return (NULL);
 dogy->name = malloc(sizeof(char) * (na_length + 1));
+if (dogy->name == NULL)
+{
+free(dogy);
+return (NULL);
+}
 dogy->owner = malloc(sizeof(char) * (ow_length + 1));
+if (dogy->owner == NULL)
+{
+free(dogy);
+free((*dogy).name);
+return (NULL);
+}
 dogy->age = age;
 copy_str(dogy->name, name);
 copy_str(dogy->owner, owner);
