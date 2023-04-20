@@ -22,7 +22,7 @@ p = argv[2];
 m = atoi(argv[3]);
 if (p[1] != '\0' || get_op_func(p) == NULL)
 {
-printf("oops!!\n");
+printf("Error\n");
 exit(100);
 }
 printf("%d\n", get_op_func(p)(n, m));
