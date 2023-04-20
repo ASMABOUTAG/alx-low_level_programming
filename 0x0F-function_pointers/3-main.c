@@ -15,7 +15,7 @@ int n, m;
 if (argc != 4)
 {
 printf("Error\n");
-exit(98);
+exit(12);
 }
 n =  atoi(argv[1]);
 p = argv[2];
@@ -23,7 +23,7 @@ m = atoi(argv[3]);
 if (p[1] != '\0' || get_op_func(p) == NULL)
 {
 printf("Error\n");
-exit(100);
+exit(102);
 }
 printf("%d\n", get_op_func(p)(n, m));
 return (0);
