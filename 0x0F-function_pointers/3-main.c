@@ -14,7 +14,7 @@ char *p;
 int n, m;
 if (argc != 4)
 {
-printf("Somthing went wrong !\n");
+printf("Error\n");
 exit(98);
 }
 n =  atoi(argv[1]);
