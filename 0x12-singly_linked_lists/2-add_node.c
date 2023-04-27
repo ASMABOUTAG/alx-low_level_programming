@@ -14,7 +14,7 @@ unsigned int len = 0;
 while (str[len])
 len++;
 add = malloc(sizeof(list_t));
-if(!add)
+if (!add)
 {
 return (NULL);
 }
