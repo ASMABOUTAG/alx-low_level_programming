@@ -1,18 +1,18 @@
 #ifndef MAIN_H
 #define MAIN_H
-
+#include <stddef.h>
 int _putchar(int c);
 /**
  * struct node - singly linked list
  * @str: a string
- * @l: string's length
+ * @len: string's length
  * @next: to the next node.
 */
 
 typedef struct node
 {
 char *str;
-unsigned int l;
+unsigned int len;
 struct node *next;
 } list_t;
 size_t print_list(const list_t *h);
