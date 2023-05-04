@@ -8,7 +8,7 @@
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-nt i, j;
+int i, j;
 unsigned long int temp;
 unsigned long int a;
 i =  63;
@@ -21,5 +21,7 @@ if (temp & 1)
 {
 j++;
 }
+}
 return (j);
 }
+
