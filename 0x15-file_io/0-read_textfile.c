@@ -7,24 +7,23 @@
 */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-size_t i;
-int rd;
-char bu[BUFSIZ];
-rd = open(filename, O_RDONLY);
-if (!filename || rd  == -1)
+
+int re_re, re_wr, re_op;
+char *BUF;
+BUF = malloc(sizeof(char) * letters);
+re_op = open(filename, O_RDONLY);
+if (!filename)
 {
 return (0);
 }
-read(rd, bu, BUFSIZ);
-if (read(rd, bu, BUFSIZ) == -1)
-{
+re_re = read(re_op, BUF, letters);
+re_wr = write(STDOUT_FILENO, BUF, re_re);
+if (re_op == -1 || re_re == -1 || re_wr == -1 || re_wr != re_re)
+	{
+free(BUF);
 return (0);
-}
-for (i = 0; i < letters; i++)
-{
-_putchar(bu[i]);
-}
-_putchar('\n');
-close(rd);
-return (letters);
+	}
+free(BUF);
+close(re_op);
+return (re_wr);
 }
